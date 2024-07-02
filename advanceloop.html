@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance loop</title>
+
+    <style>
+  .container {
+    position: relative;
+    height: 100vh; /* Adjust as needed */
+    text-align: center;
+}
+
+.overlay-container {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+#changeTextButton {
+    width: 400px;
+    height: 40px;
+    cursor: pointer;
+    background-color: brown;
+    transition: 0.5s ease;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#changeTextButton:hover {
+    background-color: rgb(206, 29, 29);
+}
+
+    </style>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="overlay-container">
+            <img src="imgs/7.jpg" alt="Background Image" class="img-fluid">
+            <div class="overlay-text" id="overlayText">
+                Setting up local environment
+            </div>
+        </div>
+        <button id="changeTextButton" class="btn btn-primary mt-3">Change Text</button>
+    </div>
+ 
+
+    <script>
+//    window.onload = centerButton;
+//     window.onresize = centerButton;
+
+//     function centerButton() {
+//         const container = document.getElementById('container');
+//         const button = document.getElementById('changeTextButton');
+
+//         const containerWidth = container.offsetWidth;
+//         const containerHeight = container.offsetHeight;
+
+//         const buttonWidth = button.offsetWidth;
+//         const buttonHeight = button.offsetHeight;
+
+//         // Calculate the center position
+//         const left = (containerWidth - buttonWidth) / 2;
+//         const top = (containerHeight - buttonHeight) / 2;
+
+//         // Set the button's position
+//         button.style.left = `${left}px`;
+//         button.style.top = `${top}px`;
+//     }
+
+
+
+
+    </script>
+    
+</body>
+</html>
